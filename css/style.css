@@ -1,0 +1,13 @@
+.w3-half img{
+	transition:1s;
+	paddding:15px;
+	width:200px;
+}
+.w3-half img:hover{
+	filter:grayscale(100%);
+	transform:scale(1.1);
+}
+
+.pb1:hover{
+   background-color: rgba(0,255,0,0.3);;
+}
