@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio Luis Ramos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="css/style.css" rel="stylesheet" type="text/css"/>
+ <link href="css/lightbox.min.css" rel="stylesheet" type="text/css"/>
+ <script src="js/lightbox-plus-jquery.min.js"></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="../img/avatar.png" style="width:100%">
+  <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+
+
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-12 w3-center w3-black" id="home">
+
+  </header>
+
+  <!-- First start Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+
+    <h2 class="w3-text-light-grey">Q Energy Dashboard</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+		An active management of
+        your carbon emissions. Energy
+        usage and carbon reduction monitored easily through the
+        QEnergy™ Dashboard.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Overview</h3>
+    <p>The Dashboard provides:<br>
+
+      • Target setting and tracking system to monitor
+      carbon reduction actions <br>
+      • Monthly report with energy and cost
+      saving insights<br>
+      • Daily/weekly energy usage prediction and
+      insights from historical and real-time data<br>
+      • Access to energy usage and billing data in
+      one place for all meters and sites<br>
+      • Validation of your bills with energy bill
+      breakdown and reporting<br>
+
+    </p>
+
+    
+	<h3 class="w3-padding-16 w3-text-light-grey">Problem </h3>
+    <p>
+
+      Currently, in the UK only 45% of the electricity bill is made up of actual energy costs, the rest of it is made of various charges based on when you use the energy and government levies to keep the network in balance.
+
+      This situation is set to get worse as the UK tries to meet decarbonisation targets through existing centralised grid infrastructure, along with the growth of renewables, electric vehicles and electric heating.
+      This is a global challenge currently being addressed by countries such as the US, UK, Australia and others in Western Europe.
+
+    </p>
+
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Empathize/Define</h3>
+    <p> Understanding user needs: <br>
+    After analyzed the competition and realized what users need to save on their energy consumption, We have found that many users have a huge difficulty controlling their energy consumption at home, large families have more difficult as well regarding the number of children / young people living at home who have uncontrolled consumption for example: when they forget about the lights on all the time, showers for a long time, playing console games and watching TV for a long time, this is a result of the imbalance based on the consumption of electricity, namely the people who spend more time at home as house-made, consecutive washing of clothes/dishes also they generating a large consumption of electricity that is not controlled.
+
+    </p>
+
+    <p>
+      Creating personas:<br>
+    </p>
+
+    <style>
+	.demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#030304;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#030304;
+	}
+</style>
+<table class="demo">
+	<thead>
+	<tr>
+		<th></th>
+		<th>Person #1</th>
+		<th>Person #2</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>About</td>
+		<td>Natalie is a site manager for a large sites with many different groups of occupants
+            Natalie is responsible for the cost efficiency operation of the building, the safety and welfare of the occupants.</td>
+		<td>Craig is a energy manager working for Bruntwood. Craig wants to be able to manage all the buildings he have in terms of consumption and know where he could be saving money.</td>
+	</tr>
+	<tr>
+		<td>Goals</td>
+		<td>Natalie wants to to have visibility of energy energy use in the building at all times
+          Natalie wants to make sure that her customers are billed accurately and fairly
+        </td>
+		<td>reduce energy consumption and therefore CO2 emissions<br>
+        track which building is consuming more or less<br>
+        know what to do and where to reduce energy consumption.</td>
+	</tr>
+	<tr>
+		<td>Frustrations</td>
+		<td>Natalie doesn't have time to do any analysis herself, but is aware that the energy billing is not accurate.
+            Natalie Doesnt like being surprised by energy usage at the end of the month.</td>
+		<td>not enough time on the day to check on detail things.</td>
+	</tr>
+	</tbody>
+</table>
+
+  </div>
+  
+  <!-- ideation Section -->
+  <div class="w3-padding-12 w3-content w3-text-grey" id="photos">
+    <h3 class="w3-padding-16 w3-text-light-grey">Ideation</h3>
+    <p>
+      Hand design ideation example:<br>
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="pb1 contenido" value="3"><img src="../img/1.jpg" style="width:100%" ></div>
+        <div class="pb1 contenido" value="2"><img src="../img/3.jpg" style="width:100%"></div>
+      </div>
+
+      <div class="w3-half">
+        <div class="pb1 contenido" value="5"><img src="../img/4.jpg" style="width:100%"></div>
+        <div class="pb1 contenido" value="6"><img src="../img/6.jpg" style="width:100%"></div>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+    <!-- ideation2 Section -->
+  <div class="w3-padding-12 w3-content w3-text-grey" id="photos">
+    <p>
+      User Flow Wireframes :<br>
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3 luishover">
+            <div class="pb1 contenido" value="7"><img src="../img/wireframes.png" style="width:100%" ></div>
+        </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+     <!-- Prototype Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Prototype</h3>
+    <p>Colors:<br></p>
+        <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3 luishover">
+        <div class="pb1 contenido" value="7"><img src="../img/colors.png" style="width:60%" ></div>
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+
+    <p>Typeface:<br></p>
+        <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3 luishover">
+        <div class="pb1 contenido" value="7"><img src="../img/typography.png" style="width:60%" ></div>
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+
+      <!-- ideation Section -->
+  <div class="w3-padding-12 w3-content w3-text-grey" id="photos">
+
+    <p>
+      Final Design Example:<br>
+    </p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="pb1 contenido" value="3"><img src="../img/home.png" style="width:100%" ></div>
+      </div>
+
+      <div class="w3-half">
+        <div class="pb1 contenido" value="5"><img src="../img/home2.png" style="width:100%"></div>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  </div>
+
+ <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Are you working on something similar? I would love to help make it happen! Just send me your e-mail and we will discuss your project together.</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 07367 207564</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: luis_07_95@hotmail.com</p>
+      <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://www.linkedin.com/in/luis-miguel-ramos-medrano-6b7949183/" class="w3-hover-text-green">Luis Miguel Ramos</a> </p>
+
+    </div><br>
+     <!--
+    <p>Lets get in touch:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.linkedin.com/in/luis-miguel-ramos-medrano-6b7949183/" target="_blank" class="w3-hover-text-green">L-Design</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+	<script>
+	
+		function myMap() {
+		  var mapCanvas = document.getElementById("map");
+		  var myCenter = new google.maps.LatLng(-17.067799, -65.791131); 
+
+		 
+		  var mapOptions = {center: myCenter, zoom: 4};
+		  var map = new google.maps.Map(mapCanvas,mapOptions);
+		  
+		
+		  
+			var marker = new google.maps.Marker({
+				position: myCenter,
+			  
+				});
+				marker.setMap(map);
+				
+			var infowindow = new google.maps.InfoWindow({
+			content: "Hello World!"
+				});
+				infowindow.open(map,marker);
+		  
+		  
+	}
+		
+		<!-- JQUERY CURRICULUM -->
+	
+		$(document).ready(function(){
+		
+			$('.contenido').click(function(){
+			 var elemento = $(this).attr("value");
+				console.log(elemento);
+				switch (elemento){		
+						case "1":
+							window.open("juegos/battleship/barcov3.html", "_blank", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=150,width=1000,height=800");
+							break;
+						case "2":
+							window.open("juegos/arkanoid/arkanoidv1.html", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+						case "3":
+							window.open("juegos/recycling/ejDyD.html", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+						case "4":
+							window.open("juegos/PRACTICA JACKPOT/jackpotV2.php", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+						case "5":
+							window.open("juegos/AHORCADO/ahorcadov5.php", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+						case "6":
+							window.open("juegos/pptijeraJQUERY/ppt.html", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+
+						case "7":
+							window.open("juegos/pptijeraJQUERY/ppt.html", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+						default:
+							alert("no has entrado");
+					
+				}	
+		  
+			 
+			});
+		});
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvhKbYhacp7-Y8Te9NH6LWAvlE72isfXE&callback=myMap"></script>
+</body>
+</html>

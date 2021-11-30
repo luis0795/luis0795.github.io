@@ -19,13 +19,13 @@
     </video> 
 	<div class="slider">
 					<ul>
-						<li><p>Los hombres viejos declaran las guerras,<br> pero son los jóvenes las que las luchas<br> y los que mueren (Herbert Hoover)</p></li>
-						<li><p>El éxito no es el final, el error no es fatal: <br> es el coraje para continuar <br>lo que cuenta (Winston Churchill)</p></li>
-						<li><p>No debes luchar muy a menudo con un enemigo, <br> o le enseñarás todo tu <br>arte bélico (Napoleón Bonaparte)</p></li>
-						<li><p>Aquel que tiene mil amigos, no le sobra ni uno.<br> Aquel que tiene un enemigo,<br> lo encontrará en todas partes (Ali ibn-Abi-Talib)</p></li>
+						<li><p>Old men declare wars, <br> but it is the young who fight them and those who die (Herbert Hoover)</p></li>
+						<li><p>Success is not the end, failure is not fatal: <br> is the courage to continue <br> what counts (Winston Churchill)</p></li>
+						<li><p>You must not fight very often with an enemy, <br> or you will teach him all your art of warfare (Napoleon Bonaparte)</p></li>
+						<li><p>He who has a thousand friends, has not one left over. <br> He who has an enemy, will find him everywhere (Ali ibn-Abi-Talib)</p></li>
 					</ul>
 	</div>
-	<p id="intentos">Numero intentos: </p>
+	<p id="intentos">Number of attemps:</p>
     <p id="tabla"></p>
 	
     <script>
@@ -69,7 +69,7 @@
 				intentos--;
 			}
 			
-			document.getElementById("intentos").innerHTML="Tienes : " +intentos+ " intentos";
+			document.getElementById("intentos").innerHTML="You've got : " +intentos+ " attempss";
 		}
 		
 		//ocultamos imagen
@@ -113,10 +113,10 @@
 		var cont = 0; //declaracion variable contador 
 		
 		var puntos = 0;
-		var nombre=prompt("Introducir nombre:");
-		var alto = prompt("introducir alto, columnas");
-		var ancho = prompt("introducir ancho, filas");
-		var intentos=prompt("introducir numero de intentos");
+		var nombre=prompt("Enter your name:");
+		var alto = prompt("Enter height, columns");
+		var ancho = prompt("Enter width, rows");
+		var intentos=prompt("Enter number of attemps");
 		
 		//declaramos un array con el ancho que le pedimos por pantalla
 		var tabla = new Array(ancho);
@@ -178,7 +178,7 @@
 			<div class="container">
 			
 				<div class="textofooter">
-					<p>  Desarrollado por : Luis Miguel Ramos <a href="http://www.jrotero.com/nuestro-centro/">Coop.Enseñanza Jro</a> | All rights reserved &copy 2017 </p>
+					<p>  Develovep by : Luis Miguel Ramos <a href="http://www.jrotero.com/nuestro-centro/">Coop.Enseñanza Jro</a> | All rights reserved &copy 2021 </p>
 				</div>
 			
 			

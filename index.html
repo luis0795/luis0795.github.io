@@ -25,7 +25,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="img/e.png" style="width:100%">
+  <img src="img/avatar.png" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -178,6 +178,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3 luishover">
+        <div class="pb1 contenido" value="7"><img src="img/qenergydashboard.png" style="width:100%" ></div>
+      </div>
       <div class="w3-half">
         <div class="pb1 contenido" value="3"><img src="img/re.png" style="width:100%" ></div>
         <div class="pb1 contenido" value="1"><img src="img/b.png" style="width:100%"></div>
@@ -204,7 +207,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <div id="map" class="col-6 col-m-6 " style="height:550px"></div>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 07367 207564</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: luis_07_95@hotmail.com</p>
-      <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://www.linkedin.com/in/luis-miguel-ramos-medrano-6b7949183/">Luis Miguel Ramos</a> </p>
+      <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://www.linkedin.com/in/luis-miguel-ramos-medrano-6b7949183/" class="w3-hover-text-green">Luis Miguel Ramos</a> </p>
 
     </div><br>
      <!--
@@ -290,6 +293,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 							break;
 						case "6":
 							window.open("juegos/pptijeraJQUERY/ppt.html", "_blank", "toolbar=no,scrollbars=no,resizable=no,top=50,left=150,width=1000,height=800");
+							break;
+
+						case "7":
+							window.open("studycase/qenergyDashboard.html");
 							break;
 						default:
 							alert("no has entrado");

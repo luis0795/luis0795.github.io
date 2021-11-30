@@ -1,13 +1,52 @@
+.demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+	.demo th {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#030304;
+	}
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+		background:#030304;
+	}
+
+
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #030304 !important;
+}
+
+
 .w3-half img{
 	transition:1s;
 	paddding:15px;
 	width:200px;
 }
+
 .w3-half img:hover{
-	filter:grayscale(100%);
+
 	transform:scale(1.1);
 }
 
-.pb1:hover{
-   background-color: rgba(0,255,0,0.3);;
+.w3 img{
+	transition:1s;
+	paddding:15px;
+	width:200px;
 }
+
+.w3 img:hover{
+	transform:scale(1.1);
+}
+.pb1:hover{
+  filter:drop-shadow(16px 16px 10px #D4D653);
+}
+
+.w3-hover-text-green{
+	color: #D4D653!important;
+}
+

@@ -17,17 +17,17 @@ $(function() {
         if (elemento == elemento_contra)
 			ganador = "empate";
         else if ((elemento == "piedra" && elemento_contra == "tijera") || (elemento == "papel" && elemento_contra == "piedra") || (elemento == "tijera" && elemento_contra == "papel")) {
-            ganador = "gana usuario";
+            ganador = "Player Wins";
             var actual = parseInt($('.usuario').html());
             actual += parseInt(1);
             $('.usuario').html(actual);
         }else {
-            ganador = "gana ordenador";
+            ganador = "Computer Wins";
             var actual = parseInt($('.ordenador').html());
             actual += parseInt(1);
             $('.ordenador').html(actual);
         }
-        $('#resultado').html("Usuario juega " + elemento + " - Ordenador juega " + elemento_contra + "<br> El resultado es " + ganador);
+        $('#resultado').html("Player have " + elemento + " - Computer have " + elemento_contra + "<br> Result is " + ganador);
          
     });
 });
